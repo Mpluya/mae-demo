@@ -12,7 +12,7 @@ public class HelloController {
 	@RequestMapping("/")
 	public String index() {
 		System.out.println(MY_SECRET);
-		return "Run cluster fun!";
+		return "You better work!";
 	}
 
 }
